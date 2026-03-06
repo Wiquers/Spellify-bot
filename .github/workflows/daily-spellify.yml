@@ -2,7 +2,7 @@ name: Daily Spellify Message
 
 on:
   schedule:
-    - cron: '0 10 * * *'  # Runs daily at 10:00 AM UTC
+    - cron: '0 17 * * *'  # Runs daily at 10:00 AM MST (UTC-7)
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
